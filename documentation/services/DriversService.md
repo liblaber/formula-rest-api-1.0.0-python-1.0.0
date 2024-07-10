@@ -7,7 +7,7 @@ A list of all methods in the `DriversService` service. Click on the method name 
 | [list_of_all_drivers](#list_of_all_drivers) | To obtain a list of all drivers. |
 
 Driver lists can be refined by adding one or more of the following criteria:
-
+```
 /circuits/<circuitId>
 /constructors/<constructorId>
 /drivers/<driverId>
@@ -15,7 +15,7 @@ Driver lists can be refined by adding one or more of the following criteria:
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all drivers who have driven for a specific constructor at a particular circuit:
 
 http://ergast.com/api/f1/constructors/mclaren/circuits/monza/drivers
@@ -36,7 +36,7 @@ This endpoint is to obtain the information of a particular driver based on the d
 To obtain a list of all drivers.
 
 Driver lists can be refined by adding one or more of the following criteria:
-
+```
 /circuits/<circuitId>
 /constructors/<constructorId>
 /drivers/<driverId>
@@ -44,7 +44,7 @@ Driver lists can be refined by adding one or more of the following criteria:
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all drivers who have driven for a specific constructor at a particular circuit:
 
 http://ergast.com/api/f1/constructors/mclaren/circuits/monza/drivers
