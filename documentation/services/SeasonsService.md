@@ -8,14 +8,14 @@ A list of all methods in the `SeasonsService` service. Click on the method name 
 
 Season lists can be refined by adding one or more of the following criteria:
 
-/circuits/<circuitId>
+```/circuits/<circuitId>
 /constructors/<constructorId>
 /drivers/<driverId>
 /grid/<position>
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all seasons where a specific driver has driven for a particular constructor:
 
 http://ergast.com/api/f1/drivers/alonso/constructors/renault/seasons
@@ -30,7 +30,7 @@ http://ergast.com/api/f1/constructors/renault/constructorStandings/1/seasons |
 This endpoint gives the seasons currently supported by the API.
 
 Season lists can be refined by adding one or more of the following criteria:
-
+```
 /circuits/<circuitId>
 /constructors/<constructorId>
 /drivers/<driverId>
@@ -38,7 +38,7 @@ Season lists can be refined by adding one or more of the following criteria:
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all seasons where a specific driver has driven for a particular constructor:
 
 http://ergast.com/api/f1/drivers/alonso/constructors/renault/seasons
