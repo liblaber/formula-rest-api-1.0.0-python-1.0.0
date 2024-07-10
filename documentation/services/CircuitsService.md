@@ -7,14 +7,14 @@ A list of all methods in the `CircuitsService` service. Click on the method name
 | [list_of_all_circuits](#list_of_all_circuits) | This endpoint is to obtain a list of all constructors. |
 
 Circuit lists can be refined by adding one or more of the following criteria:
-
+```
 /constructors/<constructorId>
 /drivers/<driverId>
 /grid/<position>
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all circuits at which a specific driver has driven for a particular constructor:
 
 http://ergast.com/api/f1/drivers/alonso/constructors/mclaren/circuits |
@@ -29,14 +29,14 @@ This endpoint is to obtain the information of a particular circuit based on the 
 This endpoint is to obtain a list of all constructors.
 
 Circuit lists can be refined by adding one or more of the following criteria:
-
+```
 /constructors/<constructorId>
 /drivers/<driverId>
 /grid/<position>
 /results/<position>
 /fastest/<rank>
 /status/<statusId>
-
+```
 For example, to list all circuits at which a specific driver has driven for a particular constructor:
 
 http://ergast.com/api/f1/drivers/alonso/constructors/mclaren/circuits
